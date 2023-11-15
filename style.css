@@ -99,6 +99,7 @@ header button{
     height: 300px;
     width: 400px;
     margin-top: 10px;
+    object-fit: cover;
 }
 
 /* PROPRIETE POUR TELEPEHONE */
@@ -177,6 +178,7 @@ footer .services .service p{
     font-weight:lighter;
 }
 footer #contact{
-    color: aquamarine;
     text-align: center;
+    color: rgb(224, 230, 228);
+    font-weight: bold;
 }
