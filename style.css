@@ -114,12 +114,35 @@ header button{
         height: 200px;
         width: 100%;
         margin-top: 0px;
+        border-radius: 0% 0% 5% 5%;
+    }
+    nav h1{
+        color: #ffffff;
+        font-weight: bold;
+        text-shadow: .1em -.1em 0 black;
+    }
+    nav .onglets a{
+        color: #ffffff;
+        text-shadow: .1em -.1em 0 black;
     }
     .main .content .card{
         display: block;
     }
     footer{
         padding: 30px;
+    }
+    .pied h2{
+        margin: 0 35%;
+        padding-bottom: 2em;
+    }
+    .pied{
+        text-align: center;
+    }
+    .services{
+        margin: 0 20%;
+    }
+    .main .content .card .left{
+        border-radius: 5% 5% 0% 0%;
     }
 }
 
