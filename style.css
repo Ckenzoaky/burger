@@ -116,6 +116,9 @@ header button{
         margin-top: 0px;
         border-radius: 0% 0% 5% 5%;
     }
+    .main .content .card .left{
+        border-radius: 5% 5% 0% 0%;
+    }
     nav h1{
         color: #ffffff;
         font-weight: bold;
@@ -139,10 +142,7 @@ header button{
         text-align: center;
     }
     .services{
-        margin: 0 20%;
-    }
-    .main .content .card .left{
-        border-radius: 5% 5% 0% 0%;
+        justify-content: center;
     }
 }
 
