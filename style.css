@@ -173,6 +173,10 @@ header button{
     nav{
         background:#000000f1;
     }
+    footer .services .service{
+    /* margin-right: 40px; */
+    padding: 20px 50px;
+    }  
 }
 
 /* BAS DE PAGE OU ENCORE FOOTER */
