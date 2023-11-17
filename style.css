@@ -25,9 +25,10 @@ nav{
 }
 
 nav h1{
-    color: #403f3f;
     font-family:'Jumper', sans-serif;
     font-size: 30px;
+    color: #fff;
+    text-shadow: .1em -.1em black;
 }
 nav .onglets{
     margin-top: 3px;
@@ -36,10 +37,11 @@ nav .onglets{
 }
 nav .onglets a{
     text-decoration: none;
-    color: black;
     margin-right: 10px;
     border-bottom: 2px solid black;
     padding-bottom: 5px;
+    color: #fff;
+    text-shadow: .1em -.1em black;
 }
 /* HEADRER */
 
@@ -117,6 +119,11 @@ header button{
 /* PROPRIETE POUR TELEPEHONE */
 
 @media screen and (max-width:679.98px){
+    nav{
+        background: #37383a;
+        position: sticky;
+        top: 0px;
+    }
     nav .onglets{
         margin-left: 0px;
         margin-bottom: 30px;
